@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+:root{
+    --primary-color: #25213B;
+    --primary-color-2: #6D5BD0;
+    --primary-color-3: #6E6893;
+    --primary-color-4: #4A4AFF;
+    
+    --primary-color-5: #D30000;
+    --primary-color-6: #CE8500;
+    --primary-color-7: #FFECCC;
+    --background-color: #E5E5E5;
+    --secondary-color: #C6C2DE;
+    --secondary-color-2: #D9D5EC;
+    --secondary-color-3: #F4F2FF;
+    --secondary-color-4: #E6E6F2;
+    --secondary-color-5: #CDFFCD;
+    --secondary-color-6: #007F00;
+    --secondary-color-7: #F2F0F9;
+    --secondary-color-8: #D9D5EC;
+
+
+    --circle-active: #4A4AFF;
+    --circle-paid: #007F00;
+    --circle-overdue: #D30000;
+    --circle-inactive: #6E6893;
+
+    --circle-unpaid: #CE8500;
+    --text-unpaid: #965E00;
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+    font-size: 14px;
+}
